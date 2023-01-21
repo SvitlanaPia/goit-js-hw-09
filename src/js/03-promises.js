@@ -21,6 +21,7 @@ function onFormSubmit(event) {
       });
     totalDelay += Number(stepEl.value);
   }
+  event.target.reset();
 }
 
 function createPromise(position, delay) {
